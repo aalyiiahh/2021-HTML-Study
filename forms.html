@@ -16,15 +16,22 @@
 </head>
 <body>
 <form method="get">
-    <label for="name here"></label>
-    <input type="text" name="name" value="name here"><br />
+    <label for="name"> name here </label>
+    <input type="text" id="name" name="name"><br />
 
     How Crazy R U <br />
-    <label for="crazy"> yes </label>
-    <input type="radio" name="crazy" value="yes">
+    <label for="cra"> yes </label>
+    <input type="radio" id="cra" name="crazy" value="yes">
 
     <label for="crazy"> no! </label>
-    <input type="radio" name="crazy" value="no">
+    <input type="radio" id="crazy" name="crazy" value="no">
+
+
+   <br /> <label for="nightowlstatus"> are you a night owl</label>
+    <select name="nightowlstatus"  id="nightowlstatus">
+        <option value="true"> true</option>
+        <option value="false"> false</option>
+    </select>
 
 </form>
 </body>
